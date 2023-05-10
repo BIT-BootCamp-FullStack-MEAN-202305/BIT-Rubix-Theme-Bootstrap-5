@@ -3,6 +3,32 @@ body {
     color: white;
 }
 
+.top-paragraph {
+    color: rgba( 0, 0, 0, .65 );
+}
+
+/** First Mobile */
+.bar-contact, .menu-language-currency {
+    display: none;          /** Oculta elementos*/
+}
+
+/** Big Devices */
+@media ( min-width: 1200px ) {
+    .bar-contact, .menu-language-currency {
+        display: flex;      /** Muestra elementos*/
+    }
+}
+
+.orange-box {
+    background-color: #ba933e;
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 0.3rem;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
 .carousel-inner {
     height: 70vh;
 }
+
