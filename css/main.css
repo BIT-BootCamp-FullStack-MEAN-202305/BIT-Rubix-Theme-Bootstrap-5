@@ -32,3 +32,23 @@ body {
     height: 70vh;
 }
 
+.footer {
+    background-color: #1A1A1A;
+}
+
+.menu-widget {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.title-widget {
+    font-size: 1rem;
+}
+
+.menu-link, .info-contact {
+    color: #999999;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
