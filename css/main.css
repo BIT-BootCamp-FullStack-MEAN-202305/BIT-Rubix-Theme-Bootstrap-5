@@ -1,7 +1,4 @@
-body {
-    background-color: orange;
-    color: white;
-}
+body {}
 
 .top-paragraph {
     color: rgba( 0, 0, 0, .65 );
@@ -32,3 +29,22 @@ body {
     height: 70vh;
 }
 
+/* Mobile */
+.product-img-src {
+    width: 46vw;
+    padding: 0 0.4rem;
+}
+
+@media ( min-width: 567px ) {
+    .product-img-src {
+        width: 30vw;
+        padding: 0 0.3rem;
+    }
+}
+
+@media ( min-width: 768px ) {
+    .product-img-src {
+        width: 23vw;
+        padding: 0 0.3rem;
+    }
+}
